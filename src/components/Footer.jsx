@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer class="text-gray-600 body-font bg-[#111827]">
-        <div class="container px-5 py-24 mx-auto">
+      <footer class=" body-font bg-[#111827]">
+        <div class="container px-5 py-16 mx-auto">
           <div class="flex flex-wrap md:text-left text-center order-first">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 class="title-font font-bold text-[#fed7aa] tracking-widest mb-3 text-2xl ">
@@ -79,10 +79,10 @@ const Footer = () => {
         </div>
 
         {/* sub-footer */}
-        <div class="bg-[#f3f4f6]">
+        <div class="bg-[#cce6e2]">
           <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
            
-            <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
+            <p class="text-sm text-[#072963] sm:ml-6 sm:mt-0 mt-4">
               © 2023 Purchaser @All Rights Reserved
             
             </p>
