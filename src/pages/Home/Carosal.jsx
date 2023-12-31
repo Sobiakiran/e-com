@@ -32,6 +32,9 @@ const Slider=()=> {
   return (
     <>
       <Swiper
+            
+
+
     slidesPerView={4}
     spaceBetween={30}
     autoplay={{
@@ -44,7 +47,9 @@ const Slider=()=> {
     {products.map((item, index) =>{
         return(
             <SwiperSlide className=' gap-5' key={index}>
-                <img className='w-[300px] h-[300px] ' src={item.image} alt={item.title} />
+                {/* <img className='w-[300px] h-[300px] ' src={item.image} alt={item.title} /> */}
+                <img className="w-full sm:w-[300px] h-[300px]" src={item.image} alt={item.title} />
+
                 <p>${item.price}</p>
                 <p>{item.title}</p>
             </SwiperSlide>

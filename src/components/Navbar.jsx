@@ -3,7 +3,7 @@ import {AiOutlineMenu, AiOutlineClose} from "react-icons/ai";
 import { FiShoppingCart } from "react-icons/fi";
 import { Link } from 'react-router-dom';
 
-export default function Header() {
+export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <div className='bg-[#cce6e2] md:sticky z-auto top-0'>

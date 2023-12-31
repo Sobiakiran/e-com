@@ -1,20 +1,7 @@
-// import React from 'react'
-
-// const About = () => {
-//   return (
-//     <div>
-//       About
-//     </div>
-//   )
-// }
-
-// export default About
-
-// import axios from 'axios'
 import React,{useState,useEffect} from 'react'
 import {Link} from "react-router-dom"
 
-const About = () => {
+const Admin = () => {
 
     const [queries,setQueries]=useState([])
 
@@ -81,4 +68,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Admin
